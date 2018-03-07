@@ -122,7 +122,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Grenade.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="PrimaryWeapon.cpp" />
+    <ClCompile Include="SecoundaryWeapon.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="WeaponInventory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Grenade.h" />
+    <ClInclude Include="PrimaryWeapon.h" />
+    <ClInclude Include="SecoundaryWeapon.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WeaponInventory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
